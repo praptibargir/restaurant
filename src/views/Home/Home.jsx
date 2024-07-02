@@ -1,11 +1,12 @@
 import "./Home.css"
 import { siteDetails,features } from "./../../data"
+import FeatureCard from "../../components/FeatureCard/FeatureCard"
 
 function Home() {
   return (
     <div>
-      <h1>{siteDetails.title}</h1>
-      <p>{siteDetails.description}</p>
+      <h1 className="heading">{siteDetails.title}</h1>
+      <p className="desc">{siteDetails.description}</p>
       <div className="features">
         {
           features.map((feature,i)=>
@@ -13,17 +14,14 @@ function Home() {
             const {title,img}= feature
 
             return(
-                  <div key={i}>
-                    <img src={img} alt={title}/>
-                    <p>{title}</p>
-                  </div>
+                  <FeatureCard key={i} title={title} img={img} />
                 )
             }
             )
           }
         </div>
     </div>
-  )
+  );
 }
 
 export default Home

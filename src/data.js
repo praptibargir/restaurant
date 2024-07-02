@@ -6,19 +6,19 @@ const siteDetails={
 const features=[
     {
         title:"Hygenic",
-        img:"https://www.flaticon.com/free-icon/shield_14943815"
+        img: "https://cdn-icons-png.flaticon.com/128/14944/14944436.png"
     },
     {
         title:"Delicious Food",
-        img:"https://www.flaticon.com/free-icon/tasty_6905318"
+        img: "https://cdn-icons-png.flaticon.com/128/6905/6905318.png"
     },
     {
         title:"Home Delivery",
-        img:"https://www.flaticon.com/free-icon/delivery_3063822"
+        img: "https://cdn-icons-png.flaticon.com/128/3063/3063758.png"
     },
     {
         title:"24x7 Open",
-        img:"https://www.flaticon.com/free-icon/24-7_3869744"
+        img: "https://cdn-icons-png.flaticon.com/128/3869/3869744.png"
     }
 ]
 
