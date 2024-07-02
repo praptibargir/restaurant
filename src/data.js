@@ -22,7 +22,12 @@ const features=[
     }
 ]
 
+const theme={
+    primary:"#ffb3da"
+}
+
 export{
     siteDetails,
-    features
+    features,
+    theme
 }

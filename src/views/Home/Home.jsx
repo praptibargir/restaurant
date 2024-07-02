@@ -1,11 +1,11 @@
 import "./Home.css"
-import { siteDetails,features } from "./../../data"
+import { siteDetails,features,theme } from "./../../data"
 import FeatureCard from "../../components/FeatureCard/FeatureCard"
 
 function Home() {
   return (
     <div>
-      <h1 className="heading">{siteDetails.title}</h1>
+      <h1 className="heading" style={{color:theme.primary}}>{siteDetails.title}</h1>
       <p className="desc">{siteDetails.description}</p>
       <div className="features">
         {
