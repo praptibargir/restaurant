@@ -1,5 +1,5 @@
 import "./Home.css"
-import { siteDetails } from "../../data"
+import { siteDetails,features } from "../../data"
 
 function Home() {
   return (
@@ -7,6 +7,7 @@ function Home() {
         <h1>
             {siteDetails.title}
         </h1>
+        <p>{siteDetails.description}</p>
     </div>
   )
 }
